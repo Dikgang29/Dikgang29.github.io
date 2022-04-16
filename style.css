@@ -1,0 +1,198 @@
+/* general */
+
+*{
+    text-decoration: none;
+}
+
+
+body{
+    line-height: 1.6;
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:300;
+    font-size: 1rem;
+
+}
+
+/* about section  */
+.about__heading{
+     text-align: center;
+     background-color: #099773;
+}
+
+/* my projects */
+.frontend_head{
+    text-align: center;
+    background-color: #099773;
+}
+
+.backend_head{
+    text-align: center;
+    background-color: #099773;
+}
+.back-text{text-align: center;}
+
+p{
+    text-align: center;
+}
+
+.nav_{
+    margin-left: 10px;
+}
+
+header h4{
+    text-align: center;
+    color: #f7ba2c;
+
+}
+span{
+    color: #e60b09;
+}
+
+
+/* navigation  IN HEADER SECTION */
+ /* header{
+     width: 100%;
+     height: 50px;
+     background-color: #858e96;
+ }
+ header h4{
+     position: absolute;
+     padding: 3px;
+     float: left;
+     margin-left: 2%;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #e9d022;
+ }
+ span{
+     color:#e60b09;
+ }
+
+header ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+header li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+header a{
+    text-align: center;
+    text-decoration: none;
+    color: #f7ba2c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+
+}
+header a:hover{
+    color: black;
+} */
+
+
+
+.contact{
+    text-align: center;
+    background-color: #099773;
+}
+ 
+
+
+@media(min-width:720px){
+
+    .intro{
+        width: 65%;
+        margin: auto;
+        overflow: none;
+    }
+    .intro-content{
+        float: right;
+        width: 40%;
+    }
+
+    /* .intro-pic{
+        margin-left: 150px;
+    } */
+
+    .about__me{
+        text-align: center;
+    }
+
+    .about__heading{background-color: #099773;}
+
+     /* inside flex box  */
+    /* .frontend_project{
+        display:flex;
+        margin: 30px;
+    } */
+
+    
+
+    .p2-text{
+        text-align: left;
+    }
+
+    
+
+    .frontend_head{
+text-align: center;
+background-color: #099773;
+    }
+
+    .backend_head{
+        text-align: center;
+        background-color: #099773;
+    }
+
+    .back-text{text-align: center;}
+
+    /* navigation on big screens  */
+    header{
+        width: 100%;
+        height: 50px;
+        background-color: #858e96;
+    }
+    header h4{
+        position: absolute;
+        padding: 3px;
+        float: left;
+        margin-left: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #e9d022;
+    }
+    span{
+        color:#e60b09;
+    }
+   
+   header ul{
+       width: auto;
+       float: right;
+       margin-top: 8px;
+   }
+   header li{
+       display: inline-block;
+       padding: 15px 20px;
+   }
+   
+   header a{
+       text-align: center;
+       text-decoration: none;
+       color: #f7ba2c;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 1.2vw;
+   
+   }
+   header a:hover{
+       color: black;
+   }
+   
+
+}
+
+
+
+
+
+
